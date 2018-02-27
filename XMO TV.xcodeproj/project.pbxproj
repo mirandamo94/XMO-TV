@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77A586772045CE2C00259CDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A586762045CE2C00259CDC /* AppDelegate.swift */; };
+		77A586792045CE2C00259CDC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A586782045CE2C00259CDC /* FirstViewController.swift */; };
+		77A5867B2045CE2C00259CDC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5867A2045CE2C00259CDC /* SecondViewController.swift */; };
+		77A5867E2045CE2D00259CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A5867C2045CE2D00259CDC /* Main.storyboard */; };
+		77A586802045CE2D00259CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A5867F2045CE2D00259CDC /* Assets.xcassets */; };
+		77A586832045CE2D00259CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A586812045CE2D00259CDC /* LaunchScreen.storyboard */; };
+		77A5868E2045CE2D00259CDC /* XMO_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5868D2045CE2D00259CDC /* XMO_TVTests.swift */; };
+		77A586992045CE2D00259CDC /* XMO_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A586982045CE2D00259CDC /* XMO_TVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77A5868A2045CE2D00259CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A5866B2045CE2C00259CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A586722045CE2C00259CDC;
+			remoteInfo = "XMO TV";
+		};
+		77A586952045CE2D00259CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A5866B2045CE2C00259CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A586722045CE2C00259CDC;
+			remoteInfo = "XMO TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77A586732045CE2C00259CDC /* XMO TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XMO TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A586762045CE2C00259CDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77A586782045CE2C00259CDC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		77A5867A2045CE2C00259CDC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		77A5867D2045CE2D00259CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77A5867F2045CE2D00259CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77A586822045CE2D00259CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77A586842045CE2D00259CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A586892045CE2D00259CDC /* XMO TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XMO TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A5868D2045CE2D00259CDC /* XMO_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMO_TVTests.swift; sourceTree = "<group>"; };
+		77A5868F2045CE2D00259CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A586942045CE2D00259CDC /* XMO TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XMO TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A586982045CE2D00259CDC /* XMO_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMO_TVUITests.swift; sourceTree = "<group>"; };
+		77A5869A2045CE2D00259CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A586702045CE2C00259CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A586862045CE2D00259CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A586912045CE2D00259CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77A5866A2045CE2C00259CDC = {
+			isa = PBXGroup;
+			children = (
+				77A586752045CE2C00259CDC /* XMO TV */,
+				77A5868C2045CE2D00259CDC /* XMO TVTests */,
+				77A586972045CE2D00259CDC /* XMO TVUITests */,
+				77A586742045CE2C00259CDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77A586742045CE2C00259CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77A586732045CE2C00259CDC /* XMO TV.app */,
+				77A586892045CE2D00259CDC /* XMO TVTests.xctest */,
+				77A586942045CE2D00259CDC /* XMO TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77A586752045CE2C00259CDC /* XMO TV */ = {
+			isa = PBXGroup;
+			children = (
+				77A586762045CE2C00259CDC /* AppDelegate.swift */,
+				77A586782045CE2C00259CDC /* FirstViewController.swift */,
+				77A5867A2045CE2C00259CDC /* SecondViewController.swift */,
+				77A5867C2045CE2D00259CDC /* Main.storyboard */,
+				77A5867F2045CE2D00259CDC /* Assets.xcassets */,
+				77A586812045CE2D00259CDC /* LaunchScreen.storyboard */,
+				77A586842045CE2D00259CDC /* Info.plist */,
+			);
+			path = "XMO TV";
+			sourceTree = "<group>";
+		};
+		77A5868C2045CE2D00259CDC /* XMO TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				77A5868D2045CE2D00259CDC /* XMO_TVTests.swift */,
+				77A5868F2045CE2D00259CDC /* Info.plist */,
+			);
+			path = "XMO TVTests";
+			sourceTree = "<group>";
+		};
+		77A586972045CE2D00259CDC /* XMO TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77A586982045CE2D00259CDC /* XMO_TVUITests.swift */,
+				77A5869A2045CE2D00259CDC /* Info.plist */,
+			);
+			path = "XMO TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77A586722045CE2C00259CDC /* XMO TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A5869D2045CE2D00259CDC /* Build configuration list for PBXNativeTarget "XMO TV" */;
+			buildPhases = (
+				77A5866F2045CE2C00259CDC /* Sources */,
+				77A586702045CE2C00259CDC /* Frameworks */,
+				77A586712045CE2C00259CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMO TV";
+			productName = "XMO TV";
+			productReference = 77A586732045CE2C00259CDC /* XMO TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77A586882045CE2D00259CDC /* XMO TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A586A02045CE2D00259CDC /* Build configuration list for PBXNativeTarget "XMO TVTests" */;
+			buildPhases = (
+				77A586852045CE2D00259CDC /* Sources */,
+				77A586862045CE2D00259CDC /* Frameworks */,
+				77A586872045CE2D00259CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A5868B2045CE2D00259CDC /* PBXTargetDependency */,
+			);
+			name = "XMO TVTests";
+			productName = "XMO TVTests";
+			productReference = 77A586892045CE2D00259CDC /* XMO TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77A586932045CE2D00259CDC /* XMO TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A586A32045CE2D00259CDC /* Build configuration list for PBXNativeTarget "XMO TVUITests" */;
+			buildPhases = (
+				77A586902045CE2D00259CDC /* Sources */,
+				77A586912045CE2D00259CDC /* Frameworks */,
+				77A586922045CE2D00259CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A586962045CE2D00259CDC /* PBXTargetDependency */,
+			);
+			name = "XMO TVUITests";
+			productName = "XMO TVUITests";
+			productReference = 77A586942045CE2D00259CDC /* XMO TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77A5866B2045CE2C00259CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Miranda Mo";
+				TargetAttributes = {
+					77A586722045CE2C00259CDC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					77A586882045CE2D00259CDC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77A586722045CE2C00259CDC;
+					};
+					77A586932045CE2D00259CDC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77A586722045CE2C00259CDC;
+					};
+				};
+			};
+			buildConfigurationList = 77A5866E2045CE2C00259CDC /* Build configuration list for PBXProject "XMO TV" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77A5866A2045CE2C00259CDC;
+			productRefGroup = 77A586742045CE2C00259CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77A586722045CE2C00259CDC /* XMO TV */,
+				77A586882045CE2D00259CDC /* XMO TVTests */,
+				77A586932045CE2D00259CDC /* XMO TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77A586712045CE2C00259CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A586832045CE2D00259CDC /* LaunchScreen.storyboard in Resources */,
+				77A586802045CE2D00259CDC /* Assets.xcassets in Resources */,
+				77A5867E2045CE2D00259CDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A586872045CE2D00259CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A586922045CE2D00259CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77A5866F2045CE2C00259CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A5867B2045CE2C00259CDC /* SecondViewController.swift in Sources */,
+				77A586772045CE2C00259CDC /* AppDelegate.swift in Sources */,
+				77A586792045CE2C00259CDC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A586852045CE2D00259CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A5868E2045CE2D00259CDC /* XMO_TVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A586902045CE2D00259CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A586992045CE2D00259CDC /* XMO_TVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77A5868B2045CE2D00259CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A586722045CE2C00259CDC /* XMO TV */;
+			targetProxy = 77A5868A2045CE2D00259CDC /* PBXContainerItemProxy */;
+		};
+		77A586962045CE2D00259CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A586722045CE2C00259CDC /* XMO TV */;
+			targetProxy = 77A586952045CE2D00259CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77A5867C2045CE2D00259CDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A5867D2045CE2D00259CDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77A586812045CE2D00259CDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77A586822045CE2D00259CDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77A5869B2045CE2D00259CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77A5869C2045CE2D00259CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77A5869E2045CE2D00259CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYQRRVWSDC;
+				INFOPLIST_FILE = "XMO TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirandamo.XMO-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77A5869F2045CE2D00259CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYQRRVWSDC;
+				INFOPLIST_FILE = "XMO TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirandamo.XMO-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77A586A12045CE2D00259CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYQRRVWSDC;
+				INFOPLIST_FILE = "XMO TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirandamo.XMO-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMO TV.app/XMO TV";
+			};
+			name = Debug;
+		};
+		77A586A22045CE2D00259CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYQRRVWSDC;
+				INFOPLIST_FILE = "XMO TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirandamo.XMO-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMO TV.app/XMO TV";
+			};
+			name = Release;
+		};
+		77A586A42045CE2D00259CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYQRRVWSDC;
+				INFOPLIST_FILE = "XMO TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirandamo.XMO-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XMO TV";
+			};
+			name = Debug;
+		};
+		77A586A52045CE2D00259CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYQRRVWSDC;
+				INFOPLIST_FILE = "XMO TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirandamo.XMO-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "XMO TV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77A5866E2045CE2C00259CDC /* Build configuration list for PBXProject "XMO TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A5869B2045CE2D00259CDC /* Debug */,
+				77A5869C2045CE2D00259CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A5869D2045CE2D00259CDC /* Build configuration list for PBXNativeTarget "XMO TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A5869E2045CE2D00259CDC /* Debug */,
+				77A5869F2045CE2D00259CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A586A02045CE2D00259CDC /* Build configuration list for PBXNativeTarget "XMO TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A586A12045CE2D00259CDC /* Debug */,
+				77A586A22045CE2D00259CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A586A32045CE2D00259CDC /* Build configuration list for PBXNativeTarget "XMO TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A586A42045CE2D00259CDC /* Debug */,
+				77A586A52045CE2D00259CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77A5866B2045CE2C00259CDC /* Project object */;
+}
