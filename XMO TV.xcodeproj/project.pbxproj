@@ -15,6 +15,8 @@
 		77A586832045CE2D00259CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A586812045CE2D00259CDC /* LaunchScreen.storyboard */; };
 		77A5868E2045CE2D00259CDC /* XMO_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5868D2045CE2D00259CDC /* XMO_TVTests.swift */; };
 		77A586992045CE2D00259CDC /* XMO_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A586982045CE2D00259CDC /* XMO_TVUITests.swift */; };
+		77A586A72045E15600259CDC /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A586A62045E15600259CDC /* ConfigurationViewController.swift */; };
+		77BB6C942046612900980960 /* PassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB6C932046612900980960 /* PassData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		77A586942045CE2D00259CDC /* XMO TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XMO TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A586982045CE2D00259CDC /* XMO_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMO_TVUITests.swift; sourceTree = "<group>"; };
 		77A5869A2045CE2D00259CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A586A62045E15600259CDC /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		77BB6C932046612900980960 /* PassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				77A586762045CE2C00259CDC /* AppDelegate.swift */,
+				77A586A62045E15600259CDC /* ConfigurationViewController.swift */,
+				77BB6C932046612900980960 /* PassData.swift */,
 				77A586782045CE2C00259CDC /* FirstViewController.swift */,
 				77A5867A2045CE2C00259CDC /* SecondViewController.swift */,
 				77A5867C2045CE2D00259CDC /* Main.storyboard */,
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77A5867B2045CE2C00259CDC /* SecondViewController.swift in Sources */,
+				77BB6C942046612900980960 /* PassData.swift in Sources */,
+				77A586A72045E15600259CDC /* ConfigurationViewController.swift in Sources */,
 				77A586772045CE2C00259CDC /* AppDelegate.swift in Sources */,
 				77A586792045CE2C00259CDC /* FirstViewController.swift in Sources */,
 			);
